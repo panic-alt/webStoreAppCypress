@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("checkLogoVisibility", () => {
+    // Checks visibilty of the store logo to validate the page
+
+    cy.fixture("mainPage.json").then((locator) => {
+        cy.get(locator.storeLogo).should('be.visible');
+    })
+})
+Cypress.Commands.add('clickLogo', () => {
+    // Clicks the store logo
+    
+    cy.fixture("mainPage.json").then((locator) => {
+        cy.get(locator.storeLogo).click();
+    })
+})

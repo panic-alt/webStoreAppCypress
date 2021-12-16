@@ -1,1 +1,4 @@
-{}
+{
+    "baseURL" : "http://demo-store.seleniumacademy.com/",
+    "testFiles": "**/*.feature"
+}
