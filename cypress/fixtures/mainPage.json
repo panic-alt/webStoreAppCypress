@@ -1,3 +1,16 @@
 {
-    "storeLogo" : ".large"
+    "storeLogo" : ".large",
+    "languageDropdown" : "#select-language",
+    "accountButton" : ".skip-account",
+    "cartButton" : ".header-minicart > .skip-link",
+    "searchField" : "#search",
+    "womenButton" : ".nav-1 > .has-children",
+    "menButton" :  ".nav-2 > .has-children",
+    "accessoriesButton" : ".nav-2 > .has-children",
+    "homeAndDecorButton" : ".nav-4 > .has-children",
+    "saleButton" : ".nav-5 > .has-children",
+    "vipButton" : ".nav-6 > .level0",
+    "myAccountButton" : "#header-account > .links > ul > .first > a",
+    "registerButton" : "#header-account > .links > ul > :nth-child(5) > a",
+    "welcomeMessage" : ".welcome-msg"
 }

@@ -1,0 +1,10 @@
+{
+    "firstNameField" : "#firstname",
+    "middleNameField" : "#middlename",
+    "lastNameField" : "#lastname",
+    "emailField" : "#email_address",
+    "passwordField" : "#password",
+    "confirmationField": "#confirmation",
+    "newsletterCheckbox" : "#is_subscribed",
+    "registerButton" : ".buttons-set > .button"
+}
